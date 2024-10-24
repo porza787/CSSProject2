@@ -1,87 +1,185 @@
-.body {
-    display: flex;
-    flex-direction: column;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-h1 {
-    font-size: 24px;
+#container {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 li {
     list-style-type: none;
 }
 
-a {
-
-}
-
-.header {
+#header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: white;
     background-color: blue;
-    padding-left: 120px;
-    padding-right: 120px;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-top: 12px;
 }
 
-.links {
+#links {
     display: flex;
     gap: 24px;
 }
 
-.top {
+#first {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
     color: white;
     background-color: blue;
+    padding: 48px;
+    gap: 24px;
 }
 
+#first
 .left {
-    
-}
-
-.right {
-    
-}
-
-.info {
     display: flex;
     flex-direction: column;
+    width: 300px;
+    flex: 0 1 auto;
+    gap: 12px;
 }
 
-.disc {
-
+#first
+.left
+.title {
+    font-size: 32px;
+    font-weight: bold;
 }
 
-.bottom {
-
+#first
+.left
+.text {
+    font-size: 16px;
 }
 
-.quote {
-    background-color: lightgrey;
-}
-
-.stuff {
-
-}
-
-.cite {
-
-}
-
-.cta {
+#first
+.left
+.button {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    flex: auto;
+    background-color: aquamarine;
+    padding: 4px;
 }
 
-.action {
+#first
+.right {
+    display: flex;
+    width: 300px;
+    flex: 0 0 auto;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#info
+.title {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#info
+.images {
 
 }
 
+#info
+.text {
+
+}
+
+#quote {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
+
+#quote
+.text {
+    display: flex;
+    width: 400px;
+    flex-basis: auto;
+}
+
+#quote
+.cite {
+    
+}
+
+#cta {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    align-items: center;
+    padding: 24px;
+}
+
+#cta
+.left {
+
+}
+
+#cta
+.left
+.title {
+
+}
+
+#cta
+.left
+.text {
+
+}
+
+#cta
+.right {
+
+}
+
+#cta
+.right
 .button {
 
 }
 
-.footer {
-    color: white;
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: blue;
 }
