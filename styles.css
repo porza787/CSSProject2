@@ -1,0 +1,87 @@
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: blue;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.links {
+    display: flex;
+    gap: 24px;
+}
+
+.top {
+    display: flex;
+    color: white;
+    background-color: blue;
+}
+
+.left {
+    
+}
+
+.right {
+    
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.disc {
+
+}
+
+.bottom {
+
+}
+
+.quote {
+    background-color: lightgrey;
+}
+
+.stuff {
+
+}
+
+.cite {
+
+}
+
+.cta {
+    display: flex;
+}
+
+.action {
+
+}
+
+.button {
+
+}
+
+.footer {
+    color: white;
+    background-color: blue;
+}
